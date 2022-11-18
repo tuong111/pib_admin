@@ -33,6 +33,18 @@ const classServices = {
             .then(res => resolve(res.data))
             .catch(err => reject(err))
         })
+    },
+    addStudent : async(token,id,listStudent) => {
+        console.log(listStudent)
+        return new Promise((resolve,reject) => {
+            api.call().post(`/class/addStudent/${id}`,{
+                listStudent : listStudent
+            },{
+                headers : {Authorization : `Bearer ${token}`}
+            })
+            .then(res => resolve(res.data))
+            .catch(err => reject(err))
+        })
     }
 }
 
