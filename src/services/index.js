@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = 'http://localhost:3000/api'
+const baseUrl = 'https://pib-server.herokuapp.com/api'
 const api = {
     call : () => {
         return axios.create({

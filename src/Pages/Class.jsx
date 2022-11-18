@@ -1,4 +1,4 @@
-import { Button, Input, Layout, Menu, Table, Typography } from 'antd';
+import { Button, Input, Layout, Table, Typography } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import classServices from '../services/classServices';
