@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pib_admin/static/css/main.3e833454.css",
+    "main.js": "/pib_admin/static/js/main.f1a6bb77.js",
+    "static/js/787.3ce4cc4d.chunk.js": "/pib_admin/static/js/787.3ce4cc4d.chunk.js",
+    "index.html": "/pib_admin/index.html",
+    "main.3e833454.css.map": "/pib_admin/static/css/main.3e833454.css.map",
+    "main.f1a6bb77.js.map": "/pib_admin/static/js/main.f1a6bb77.js.map",
+    "787.3ce4cc4d.chunk.js.map": "/pib_admin/static/js/787.3ce4cc4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e833454.css",
+    "static/js/main.f1a6bb77.js"
+  ]
+}
