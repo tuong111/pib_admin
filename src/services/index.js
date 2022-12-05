@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = 'https://pib-server.herokuapp.com/api'
+const baseUrl = 'https://pib-server.onrender.com/api'
 const api = {
     call : () => {
         return axios.create({
